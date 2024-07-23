@@ -2,6 +2,7 @@ import { FaCode } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 import { Link } from "react-router-dom";
 import CODING_PROFILES from "../../data/codingProfiles";
+import DESIGN_PROFILES from "../../data/designProfiles";
 import Tooltip from "../UI/Tooltip";
 
 import { COLLEGE, SCHOOL } from "../../data/about";
@@ -25,6 +26,49 @@ const Education = () => {
           data-aos="zoom-in-up"
         >
           {CODING_PROFILES.map((profile) => {
+            return (
+              <div
+                key={profile.id}
+                className="group flex items-center text-sm text-[color:var(--secondary-text-color)] relative"
+              >
+                <Link
+                  to={profile.link}
+                  aria-label={profile.name}
+                  target="_blank"
+                >
+                  <img
+                    src={profile.icon}
+                    className="min-w-[30px] max-w-[30px] md:min-w-[36px] md:max-w-[36px] duration-1000 aspect-square hover:scale-125 hover:duration-300 "
+                    alt=""
+                  />
+                </Link>
+                <Tooltip
+                  className="-translate-x-1/2 -bottom-20 left-1/2"
+                  title={profile.description}
+                />
+                {/* <p className="">{profile.description}</p> */}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Design Profiles */}
+      <div className="absolute md:static -bottom-[12rem] md:mt-8 text-[color:var(--primary-text-color)]  flex gap-2 flex-col w-2/5 min-w-[22rem]">
+        <div
+          className="flex flex-col items-center justify-center px-8 mb-4 header"
+          data-aos="fade-in"
+        >
+          <h1 className="flex gap-2 mb-2 text-3xl font-bold tracking-wide text-center text-white whitespace-nowrap">
+            DESIGN PROFILES <FaCode className="text-4xl" />
+          </h1>
+          <div className="h-[0.30rem] w-10 bg-white rounded-full"></div>
+        </div>
+        <div
+          className="flex items-center w-full gap-12 px-4 py-4 bg-[color:var(--secondary-background-color)] rounded-sm shadow-lg justify-evenly shadow-[color:var(--secondary-shadow-color)] md:shadow-[color:var(--primary-shadow-color)] z-[5]"
+          data-aos="zoom-in-up"
+        >
+          {DESIGN_PROFILES.map((profile) => {
             return (
               <div
                 key={profile.id}

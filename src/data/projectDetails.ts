@@ -51,7 +51,7 @@ const PROJECTS: IProjectInfo[] = [
 
   {
     id: 1,
-    name: "Scribble Verse",
+    name: "Sudocodes",
     icon: PROJECT_IMAGE.whiteboard_icon,
     description: [
       "Whiteboard, a digital tool that emulates the functionality of a physical whiteboard. Users can draw, write, and take notes in a digital format.",

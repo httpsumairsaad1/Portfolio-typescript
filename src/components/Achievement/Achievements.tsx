@@ -51,6 +51,7 @@ function Achievements() {
                         <img
                           src={achieve.icon}
                           className="object-center w-6 lgm:w-8 aspect-square"
+                          alt="icon"
                         />
                       </div>
                     }

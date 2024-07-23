@@ -29,6 +29,13 @@ const CODING_PROFILES = [
     icon: icons.hackerrank,
     description: "Hackerrank : 4 Star, Problem Solving",
   },
+  // {
+  //   id: 5,
+  //   name: "Codepen",
+  //   link: "https://codepen.io/httpsumairsaad1",
+  //   icon: icons.codepen,
+  //   description: "CodePen: Code development using React.",
+  // },
 ];
 
 export default CODING_PROFILES;

@@ -5,6 +5,9 @@ import hamdard_icon_v from "./icons/hamdard-logo-2.png";
 
 import app from "./appUI.png";
 import app_dark from "./appUI_dark.png";
+import app_icon from "./icons/daiLogo_light.png"
+
+import sc from "./sudocodes.png";
 
 import graphical_dark from "./graphical-dark.png";
 import graphical_light from "./graphical-light.png";
@@ -47,6 +50,7 @@ export default {
 
   app,
   app_dark,
+  app_icon,
 
   graphical_dark,
   graphical_light,
