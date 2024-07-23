@@ -1,0 +1,9 @@
+.vertical-timeline-element-content {
+  background-color: var(--secondary-background-color);
+  display:  flex;
+  align-items: center;
+}
+.vertical-timeline-element-content-arrow {
+  border-right-color: var(--secondary-background-color);
+
+}

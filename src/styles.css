@@ -1,0 +1,42 @@
+.mouse {
+  transform: translateY(0);
+  animation: scrollAnimation 1.5s infinite;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+}
+
+.change {
+  border-radius: 76% 24% 52% 48% / 62% 84% 16% 38%;
+  animation: morph alternate-reverse 2s infinite linear;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 76% 24% 52% 48% / 62% 84% 16% 38%;
+  }
+  25% {
+    border-radius: 59% 41% 52% 48% / 62% 84% 16% 38%;
+    transform: translateY(2px);
+  }
+  50% {
+    border-radius: 49% 51% 52% 48% / 62% 64% 36% 38%;
+    transform: translateY(4px);
+  }
+  75% {
+    border-radius: 31% 69% 52% 48% / 74% 64% 36% 26%;
+    transform: translateY(6px);
+  }
+  100% {
+    border-radius: 23% 77% 35% 65% / 78% 47% 53% 22%;
+    transform: translateY(8px);
+  }
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #508D4E;
+  --color-secondary: #D6EFD8;
+  --primary-text-color: #80AF81;
+  --secondary-text-color: #618264;
+  --tertiary-text-color: #141f1d;
+  --primary-background-color: #fff;
+  --secondary-background-color: #fff;
+  --primary-shadow-color: #B0D9B1;
+  --secondary-shadow-color: #D0E7D2;
+}
+
+.dark-mode {
+  --color-primary: #365486;
+  --color-secondary: #ff2d75;
+  --primary-text-color: #0078e1;
+  --secondary-text-color: #fff;
+  --tertiary-text-color: #fff;
+  --primary-background-color: #020617;
+  --secondary-background-color: #0f172a;
+  --primary-shadow-color: #0264b9;
+  --secondary-shadow-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+body {
+  background-color: var(--primary-background-color);
+}
+
+html,
+body {
+  -webkit-tap-highlight-color: transparent;
+}
