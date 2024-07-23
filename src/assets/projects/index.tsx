@@ -3,6 +3,9 @@ import hamdard_light from "./hamdard.png";
 import hamdard_icon from "./icons/hamdardLogo.png";
 import hamdard_icon_v from "./icons/hamdard-logo-2.png";
 
+import app from "./appUI.png";
+import app_dark from "./appUI_dark.png";
+
 import graphical_dark from "./graphical-dark.png";
 import graphical_light from "./graphical-light.png";
 import graphical_icon from "./icons/graphical-icon.png";
@@ -41,6 +44,9 @@ export default {
   hamdard_dark,
   hamdard_icon,
   hamdard_icon_v,
+
+  app,
+  app_dark,
 
   graphical_dark,
   graphical_light,

@@ -32,19 +32,21 @@ const PROJECTS: IProjectInfo[] = [
     name: "DoubleAI",
     icon: PROJECT_IMAGE.graphical_icon,
     description: [
-      "Graphical password authentication system, a secure authentication system based on user-chosen images, offering a personalized and robust method of login that enhances security.",
-      `🔒 Developed a secure authentication system based on user's choice of image.
-  💡 Reduces traditional problems of graphical passwords (shoulder surfing, key logging, etc.).
-  🔑 Implements password changes with each login request.
-  🔒 Incorporates a 3-factor authentication for OTP verification`,
+      "DoubleAI is a video-sharing app where users can post videos with AI-generated prompts, explore trending content, and manage profiles. It uses React Native and Expo for the frontend and Appwrite for backend services like authentication and data storage.",
+      `🎥 Post videos with AI-generated prompts and titles
+📈 Browse and explore trending content from the community
+👤 Manage and customize user profiles`,
+  `🔍 Search for videos posted by others
+🔐 Secure sign-in and sign-up authentication
+⚙️ Enhanced user experience with loading indicators and empty state designs`,
     ],
     imgUrl: {
-      light: PROJECT_IMAGE.graphical_light,
-      dark: PROJECT_IMAGE.graphical_dark,
+      light: PROJECT_IMAGE.app,
+      dark: PROJECT_IMAGE.app_dark,
     },
-    techStack: ["ReactJs", "Tailwind Css", "Nodejs", "MongoDb"],
-    githubLink: "https://github.com/EnK-r-yPT",
-    liveLink: "https://sihenkrypt.netlify.app/",
+    techStack: ["React-Native", "Appwrite"],
+    githubLink: "https://github.com/httpsumairsaad1/doubleAI-app-react-native",
+    liveLink: "",
   },
 
   {
