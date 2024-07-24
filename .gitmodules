@@ -1,0 +1,3 @@
+[submodule "submodule-path"]
+	path = submodule-path
+	url = https://github.com/httpsumairsaad1/Portfolio-typescript/
