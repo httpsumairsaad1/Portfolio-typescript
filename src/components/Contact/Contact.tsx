@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import { twMerge } from "tailwind-merge";
-import { ABOUT_ME } from "../../data/about";
 import CONTACTS from "../../data/contact";
 import { darkModeAtom } from "../../recoil/atoms/darkModeAtom";
 import Wrapper from "../Wrapper/wrapper";
