@@ -84,14 +84,14 @@ function Home() {
             <p className="px-3 mt-2 text-sm duration-1000 hover:translate-x-5 hover:duration-300 hover:scale-110">
               &lt;button&gt;
             </p>
-            <Link
+            {/* <Link
               aria-label="Resume"
               to={ABOUT_ME.resumeLink}
               target="_blank"
               className=" border-[--primary-text-color] border-2 px-6 py-2 font-semibold mx-9 mt-2 text-[color:var(--primary-text-color)] hover:bg-[color:var(--primary-text-color)] hover:text-white duration-1000 hover:translate-x-8 hover:duration-300 hover:scale-110 drop-shadow-lg shadow-black"
             >
               SEE MY RESUME
-            </Link>
+            </Link> */}
             <div className="flex gap-4 mt-2 mx-9">
               {CONTACTS.map((contact) => {
                 return (

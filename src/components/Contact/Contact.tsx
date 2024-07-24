@@ -65,7 +65,7 @@ const Contact = () => {
                   );
                 })}
               </div>
-              <div className="mt-4" data-aos="fade-up">
+              {/* <div className="mt-4" data-aos="fade-up">
                 <Link
                   className="px-8 py-3 mt-2 bg-[color:var(--secondary-background-color)] text-[color:var(--primary-text-color)] font-semibold shadow-md shadow-[color:var(--primary-shadow-color)] hover:scale-110 duration-1000 hover:duration-300 active:scale-95 tracking-wide"
                   aria-label="Resume"
@@ -74,7 +74,7 @@ const Contact = () => {
                 >
                   SEE MY RESUME
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div
               className="w-full  mt-4 border-8 border-[color:var(--secondary-background-color)] shadow-lg shadow-[color:var(--primary-shadow-color)] h-[300px] lg:h-[350px] flex items-center justify-center bg-[color:var(--secondary-background-color)]"
@@ -82,7 +82,9 @@ const Contact = () => {
             >
               <iframe
                 title="My Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219.02670427057078!2d77.28255034027204!3d28.556929835391184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d2a5c32827%3A0x399703d8db4a8713!2sMariyam%20Residency!5e0!3m2!1sen!2sin!4v1688108537681!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71632.2924154237!2d69.11192469999999!3d25.1567759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394e90a2e372794b%3A0xbcd8dccb0d8c2e79!2sDigri%2C+Mirpur+Khas%2C+Sindh%2C+Pakistan!5e0!3m2!1sen!2sin!4v1688108537681!5m2!1sen!2sin"
+
+
                 width="100%"
                 height="100%"
                 style={{ filter: isDarkMode ? "invert(92%)" : "" }}

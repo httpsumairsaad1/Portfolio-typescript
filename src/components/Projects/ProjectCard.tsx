@@ -29,14 +29,15 @@ const ProjectCard: React.FC<IPROPS> = ({ index, project }) => {
           index & 1 ? "md:items-end" : "md:items-start"
         )}
       >
-        <h2 className="text-2xl font-[550] whitespace-nowrap flex items-center justify-center text-[color:var(--tertiary-text-color)] ">
-          <img
-            src={project.icon}
-            className="w-12 aspect-square"
-            alt={project.name}
-          />
-          {project.name}
-        </h2>
+        <h2 className="text-2xl font-[550] whitespace-nowrap flex items-center justify-center text-[color:var(--tertiary-text-color)]">
+  <img
+    src={project.icon}
+    className="w-24 h-auto mr-[22px]" // Adjust width and add margin-right (mr-4)
+    alt={project.name}
+  />
+  {project.name}
+</h2>
+
         <div
           className={twMerge(
             "pt-6 md:p-6 md:rounded-lg md:shadow-lg md:bg-[color:var(--secondary-background-color)] text-[color:var(--secondary-text-color)] text-center mt-4",

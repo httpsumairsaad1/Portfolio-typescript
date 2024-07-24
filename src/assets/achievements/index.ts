@@ -1,16 +1,13 @@
-import google_icon from "./google.png";
-import reply_icon from "./reply.png";
-import sih_icon from "./sih.png";
-import newton_icon from "./newton.ico";
-
-import codeforces_icon from "../profiles/codeforces.svg";
+import meta_icon from "./meta.png"
+import hackerrank_icon from "./hackerrank.svg"
+import iba from "./hackerrank.svg"
+import smec from "./logo-smec.png"
 import leetcode_icon from "../profiles/leetcode.svg";
 
 export default {
-  google_icon,
-  reply_icon,
-  sih_icon,
-  newton_icon,
-  codeforces_icon,
   leetcode_icon,
+  meta_icon,
+  hackerrank_icon,
+  iba,
+  smec,
 };

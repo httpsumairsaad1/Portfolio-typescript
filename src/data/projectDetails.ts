@@ -4,7 +4,7 @@ const PROJECTS: IProjectInfo[] = [
   {
     id: 1,
     name: "Hamdard",
-    icon: PROJECT_IMAGE.hamdard_icon_v,
+    icon: PROJECT_IMAGE.hamdard_icon,
     description: [
       "Hamdard Donatio, A website where companies can easily donate to Hamdard through the Hamdard website. This makes it simple for businesses to support the organization's community projects.",
       `🌐 Easy online donation through the Hamdard website
@@ -24,13 +24,14 @@ const PROJECTS: IProjectInfo[] = [
     techStack: ["ReactJs", "Material UI", "Nodejs", "Apex Charts", "MongoDB"],
     githubLink: "https://github.com/httpsumairsaad1/Hamdard-Donation",
 
-    liveLink: "",
+    liveLink: "https://www.linkedin.com/posts/umair-saad-79393a235_mernstack-databasemanagement-donationplatform-activity-7203985541896278017-EGRs?utm_source=share&utm_medium=member_desktop",
   },
 
   {
     id: 1,
     name: "DoubleAI",
-    icon: PROJECT_IMAGE.graphical_icon,
+
+    icon: PROJECT_IMAGE.app_icon,
     description: [
       "DoubleAI is a video-sharing app where users can post videos with AI-generated prompts, explore trending content, and manage profiles. It uses React Native and Expo for the frontend and Appwrite for backend services like authentication and data storage.",
       `🎥 Post videos with AI-generated prompts and titles
@@ -52,144 +53,72 @@ const PROJECTS: IProjectInfo[] = [
   {
     id: 1,
     name: "Sudocodes",
-    icon: PROJECT_IMAGE.whiteboard_icon,
+    icon: PROJECT_IMAGE.sudocodes_icon,
     description: [
-      "Whiteboard, a digital tool that emulates the functionality of a physical whiteboard. Users can draw, write, and take notes in a digital format.",
-      `🖊️ Pen with color and size adjustment 
-  🧽 Eraser with size adjustment 
-  🌈 Background color change of the whiteboard
-  🖍️ Shapes like line, rectangle, circle to draw on whiteboard`,
-      `↩️ Undo, 🔁 Redo, 🗑️ Clear the whiteboard drawing
-  🌗 Dark and 🌕 light mode to ensure a comfortable experience
-  💾 Save, 📂 load, and 🗑️ delete from local storage`,
+      "Sudocodes, a platform where super users can code and collaborate, and users can hire professional developers for development and UI/UX design. It offers reviews and connects clients with skilled developers for high-quality project execution.",
+      `🌐 Collaborative coding and project management
+    💼 Hire expert developers for development and design
+    🗨️ User reviews and feedback on developers
+    🔍 Professional services for UI/UX design and more`,
+      `🤝 Access to a pool of skilled developers and designers
+    📈 Transparent review system for quality assurance
+    📅 Timely delivery and project updates
+    💬 Dedicated support for project inquiries`
     ],
     imgUrl: {
-      light: PROJECT_IMAGE.whiteboard_light,
-      dark: PROJECT_IMAGE.whiteboard_dark,
+      light: PROJECT_IMAGE.sudocodes,
+      dark: PROJECT_IMAGE.sudocodes,
     },
-    techStack: ["Javascript", "Html", "Tailwind css"],
-    githubLink: "https://github.com/vickyguptaa7/WhiteBoard",
-    liveLink: "https://vickyguptaa7.github.io/Scribble-Verse/",
+    techStack: ["Javascript", "Html", "Bootstrap"],
+    githubLink: "https://github.com/httpsumairsaad1/Sudocodes-js-project",
+    liveLink: "https://sudocodes-by-umair-saad.netlify.app/",
   },
-];
-
-const SMALL_PROJECTS = [
   {
     id: 1,
-    name: "Clock App",
-    icon: PROJECT_IMAGE.clock_icon,
-    description: "",
+    name: "Tripy UI Design",
+    icon: PROJECT_IMAGE.air_icon,
+    description: [
+      "Tripy, a comprehensive travel planning platform, allows users to organize their trips, book hotels, flights, and trains, and ensure seamless travel experiences. It provides an intuitive UI design and connects travelers with various services for a hassle-free journey.",
+      `🌐 Integrated trip planning and booking system
+      💼 Book hotels, flights, and trains effortlessly
+      🗨️ User reviews and recommendations for travel services
+      🔍 Complete UI design for easy navigation`,
+      `✈️ One-stop platform for all travel needs
+      🏨 Access to a wide range of hotels and accommodations
+      📅 Real-time booking and itinerary updates`
+    ],
     imgUrl: {
-      light: PROJECT_IMAGE.clock_light,
-      dark: PROJECT_IMAGE.clock_dark,
+      light: PROJECT_IMAGE.air_light,
+      dark: PROJECT_IMAGE.air_dark,
     },
-    liveLink: "https://vickyguptaa7.github.io/Clock/",
-    githubLink: "https://github.com/vickyguptaa7/Clock",
-    techStack: ["Javascript", "Html", "TailwindCss"],
+    techStack: ["Figma", "Unsplash", "Bootstrap"],
+    githubLink: "https://github.com/httpsumairsaad1/Tripy-Project",
+    liveLink: "https://www.figma.com/design/q9ej8IvErQXP6TcBzewd2I/TripUI---Umair-Saad?node-id=0-1&t=jVPPsN1EjEcBFHjy-1",
   },
   {
-    id: 2,
-    name: "Calculator App",
-    icon: PROJECT_IMAGE.calculator_icon,
-    description: "",
+    id: 1,
+    name: "MicroEstate3D",
+    icon: PROJECT_IMAGE.micro_icon,
+    description: [
+      "MicroEstate3d, a platform where users can buy houses, offers a 3D UI allowing them to explore rooms, apartments, colonies/areas, cities, and countries. It features a detailed map and web UI design for an immersive real estate experience",
+      `🌐 Comprehensive house buying platform
+      💼 Explore rooms, apartments, and areas in 3D
+      🗨️ User reviews and feedback on properties
+      🔍 Detailed map for easy navigation`,
+      `🏠 3D visualization of rooms and properties
+      🌍 Explore properties at various geographical levels
+      📈 Transparent review system for property assurance
+      💬 Dedicated support for property inquiries and assistance`,
+    ],
     imgUrl: {
-      light: PROJECT_IMAGE.calculator,
-      dark: PROJECT_IMAGE.calculator,
+      light: PROJECT_IMAGE.micro,
+      dark: PROJECT_IMAGE.micro_dark,
     },
-    liveLink: "https://vickyguptaa7.github.io/Calculator/",
-    githubLink: "https://github.com/vickyguptaa7/Calculator",
-    techStack: ["Javascript", "Html", "Css"],
+    techStack: ["Figma", "Unsplash"],
+    githubLink: "https://www.figma.com/design/hqJOFWDeNnF3Sll36dlsla/Cake-App-UI-%7C%7C-Bakery-UI-(Community)?node-id=11-276&t=QMxlL0eonDRWH8dM-1",
+    liveLink: "https://www.figma.com/design/hqJOFWDeNnF3Sll36dlsla/Cake-App-UI-%7C%7C-Bakery-UI-(Community)?node-id=11-276&t=QMxlL0eonDRWH8dM-1",
   },
-  {
-    id: 3,
-    name: "Quote Generator",
-    icon: PROJECT_IMAGE.quote_icon,
-    description: "",
-    imgUrl: {
-      light: PROJECT_IMAGE.quote,
-      dark: PROJECT_IMAGE.quote,
-    },
-    liveLink:
-      "https://vickyguptaa7.github.io/Learning-Projects/1.Quote%20Generator/dist/index.html",
-    githubLink:
-      "https://github.com/vickyguptaa7/Learning-Projects/tree/master/1.Quote%20Generator",
-    techStack: ["Javascript", "Html", "TailwindCss"],
-  },
-  {
-    id: 4,
-    name: "Music Player",
-    icon: PROJECT_IMAGE.music_icon,
-    description: "",
-    imgUrl: {
-      light: PROJECT_IMAGE.music,
-      dark: PROJECT_IMAGE.music,
-    },
-    liveLink:
-      "https://vickyguptaa7.github.io/Learning-Projects/6.Audio%20Player/dist/index.html",
-    githubLink:
-      "https://github.com/vickyguptaa7/Learning-Projects/tree/master/6.Audio%20Player",
-    techStack: ["Javascript", "Html", "TailwindCss"],
-  },
-  {
-    id: 5,
-    name: "SlideShow",
-    icon: PROJECT_IMAGE.slideshow_icon,
-    description: "",
-    imgUrl: {
-      light: PROJECT_IMAGE.slideshow,
-      dark: PROJECT_IMAGE.slideshow,
-    },
-    liveLink:
-      "https://vickyguptaa7.github.io/Mini-Projects/15.Background%20Slider/dist/index.html",
-    githubLink:
-      "https://github.com/vickyguptaa7/Mini-Projects/tree/master/15.Background%20Slider",
-    techStack: ["Javascript", "Html", "TailwindCss"],
-  },
-  {
-    id: 6,
-    name: "Joke Teller",
-    icon: PROJECT_IMAGE.joke_icon,
-    description: "",
-    imgUrl: {
-      light: PROJECT_IMAGE.joke,
-      dark: PROJECT_IMAGE.joke,
-    },
-    liveLink:
-      "https://vickyguptaa7.github.io/Learning-Projects/4.Joke%20Teller/dist/index.html",
-    githubLink:
-      "https://github.com/vickyguptaa7/Learning-Projects/tree/master/4.Joke%20Teller",
-    techStack: ["Javascript", "Html", "TailwindCss"],
-  },
-  // {
-  //   id: 7,
-  //   name: "Skeleton Loader",
-  //   icon: PROJECT_IMAGE.skeleton_icon,
-  //   description: "",
-  //   imgUrl: {
-  //     light: PROJECT_IMAGE.skeleton,
-  //     dark: PROJECT_IMAGE.skeleton,
-  //   },
-  //   liveLink:
-  //     "https://vickyguptaa7.github.io/Mini-Projects/18.Skeleton%20Loader/dist/index.html",
-  //   githubLink:
-  //     "https://github.com/vickyguptaa7/Mini-Projects/tree/master/18.Skeleton%20Loader",
-  //   techStack: ["Javascript", "Html", "TailwindCss"],
-  // },
-  // {
-  //   id: 8,
-  //   name: "Progress Steps",
-  //   icon: PROJECT_IMAGE.progress_icon,
-  //   description: "",
-  //   imgUrl: {
-  //     light: PROJECT_IMAGE.progress,
-  //     dark: PROJECT_IMAGE.progress,
-  //   },
-  //   liveLink:
-  //     "https://vickyguptaa7.github.io/Mini-Projects/2.Progress_Steps/dist/index.html",
-  //   githubLink:
-  //     "https://github.com/vickyguptaa7/Mini-Projects/tree/master/2.Progress_Steps",
-  //   techStack: ["Javascript", "Html", "TailwindCss"],
-  // },
 ];
 
-export { PROJECTS, SMALL_PROJECTS };
+
+export { PROJECTS };

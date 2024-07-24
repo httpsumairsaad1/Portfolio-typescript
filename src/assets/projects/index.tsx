@@ -7,11 +7,23 @@ import app from "./appUI.png";
 import app_dark from "./appUI_dark.png";
 import app_icon from "./icons/daiLogo_light.png"
 
-import sc from "./sudocodes.png";
 
-import graphical_dark from "./graphical-dark.png";
-import graphical_light from "./graphical-light.png";
-import graphical_icon from "./icons/graphical-icon.png";
+import sudocodes from "./graphical-light.png";
+import sudocodes_icon from "./icons/sudocodes-logo.png"
+
+import air_light from "./air.png"
+import air_dark from "./air_dark.png"
+import air_icon from "./icons/air_logo.png"
+
+import cake from "./c1.png"
+import cake_dark from "./c2.png"
+import cake_icon from "./icons/DEGREE360.png"
+
+import micro from "./m.png"
+import micro_dark from "./m_d.png"
+import micro_icon from "./icons/micro_icon.png"
+
+// =============================
 
 import whiteboard_icon from "./icons/whiteboard-icon.png";
 import whiteboard_dark from "./whiteboard-dark.png";
@@ -52,9 +64,22 @@ export default {
   app_dark,
   app_icon,
 
-  graphical_dark,
-  graphical_light,
-  graphical_icon,
+  sudocodes,
+  sudocodes_icon,
+
+  air_dark,
+  air_light,
+  air_icon,
+
+  cake,
+  cake_dark,
+  cake_icon,
+
+  micro_dark,
+  micro,
+  micro_icon, 
+  // ===========================
+
   whiteboard_dark,
   whiteboard_light,
   whiteboard_icon,
