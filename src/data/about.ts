@@ -10,7 +10,7 @@ export const ABOUT_ME = {
   image: my_image,
   codeImg: codeImg,
   resumeLink:
-    "https://drive.google.com/file/d/1XY3laHq5E781TUEJ6apap02qkwQRonGT/view?usp=drive_link",
+    "https://drive.google.com/file/d/1MsfpVJwnCgd4So9tTT_O8fiHvr3EO8uG/view?usp=sharing",
 };
 
 export const COLLEGE = {
