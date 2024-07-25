@@ -6,7 +6,7 @@ const ACHIVEMENTS = [
     title: "LeetCode",
     subTitle: "Competitive programming",
     description:
-      "I secured the 2nd position in Pakistan and globally ranked 837 out of 25,360 participants in LeetCode contest!",
+      "Attained 1st  position in Pakistan and globally ranked 1060  out of 25,289 participants in a LeetCode  biweekly contest #139.",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7195380036399484928/",
     icon: ACHIEVEMENT_ICONS.leetcode_icon,
     date: "May 2024",
@@ -16,7 +16,7 @@ const ACHIVEMENTS = [
     title: "Hackerrank",
     subTitle: "Rank on Project Euler+",
     description:
-      "I ranked 24th out of 1,414 participants in Pakistan on Hackerrank for the Project Euler+ contest.",
+      "Secured 24th rank out of 1,414 participants in Pakistan in the Hackerrank Project Euler+ contest.",
     link: "https://www.hackerrank.com/contests/projecteuler/leaderboard?filter=Pakistan&filter_on=country&page=2",
     icon: ACHIEVEMENT_ICONS.hackerrank_icon,
     date: "July 2024",
@@ -46,7 +46,7 @@ const ACHIVEMENTS = [
     title: "LeetCode",
     subTitle: "Competitive programming, Biweekly contest #139",
     description:
-      "I competed in LeetCode’s biweekly contest #139. My rank in the contest was 890 out of 22,777 participants.",
+      "Secured 3rd position in Pakistan and a global rank of 3747 out of 25,657 participants in LeetCode Weekly Contest #395.",
     link: "https://www.linkedin.com/posts/umair-saad-79393a235_chefcode-programmingcontest-leetcode-activity-7190027570753519616-aDZs?utm_source=share&utm_medium=member_desktop",
     icon: ACHIEVEMENT_ICONS.leetcode_icon,
     date: "April 2024",
