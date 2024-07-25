@@ -64,7 +64,7 @@ const Contact = () => {
                   );
                 })}
               </div>
-              {/* <div className="mt-4" data-aos="fade-up">
+              <div className="mt-4" data-aos="fade-up">
                 <Link
                   className="px-8 py-3 mt-2 bg-[color:var(--secondary-background-color)] text-[color:var(--primary-text-color)] font-semibold shadow-md shadow-[color:var(--primary-shadow-color)] hover:scale-110 duration-1000 hover:duration-300 active:scale-95 tracking-wide"
                   aria-label="Resume"
@@ -73,7 +73,7 @@ const Contact = () => {
                 >
                   SEE MY RESUME
                 </Link>
-              </div> */}
+              </div>
             </div>
             <div
               className="w-full  mt-4 border-8 border-[color:var(--secondary-background-color)] shadow-lg shadow-[color:var(--primary-shadow-color)] h-[300px] lg:h-[350px] flex items-center justify-center bg-[color:var(--secondary-background-color)]"
