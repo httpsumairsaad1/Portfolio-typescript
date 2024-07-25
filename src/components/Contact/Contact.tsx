@@ -7,6 +7,7 @@ import { twMerge } from "tailwind-merge";
 import CONTACTS from "../../data/contact";
 import { darkModeAtom } from "../../recoil/atoms/darkModeAtom";
 import Wrapper from "../Wrapper/wrapper";
+import { ABOUT_ME } from "../../data/about";
 
 const Contact = () => {
   const isDarkMode = useRecoilValue(darkModeAtom);
