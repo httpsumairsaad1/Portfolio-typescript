@@ -6,7 +6,7 @@ const PROJECTS: IProjectInfo[] = [
     name: "Hamdard",
     icon: PROJECT_IMAGE.hamdard_icon,
     description: [
-      "Hamdard Donatio, A website where companies can easily donate to Hamdard through the Hamdard website. This makes it simple for businesses to support the organization's community projects.",
+      "Hamdard Donation, A website where companies can easily donate to Hamdard through the Hamdard website. This makes it simple for businesses to support the organization's community projects.",
       `🌐 Easy online donation through the Hamdard website
 💸 Secure payment processing for company donations
 📊 Transparent tracking of donation impact
