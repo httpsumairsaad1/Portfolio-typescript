@@ -21,7 +21,7 @@ export const COLLEGE = {
 };
 
 export const SCHOOL = {
-  name: "Government High Boys School, Diplo",
+  name: "Government Degree College Diplo",
   course: "Intermediate, Pre-Engineering.",
   duration: "2018 - 2020",
   icon: school,
