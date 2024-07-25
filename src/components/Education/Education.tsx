@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 import CODING_PROFILES from "../../data/codingProfiles";
 import DESIGN_PROFILES from "../../data/designProfiles";
 import Tooltip from "../UI/Tooltip";
-
 import { COLLEGE, SCHOOL } from "../../data/about";
 
 const Education = () => {
   return (
     <>
       {/* Coding Profiles */}
-      <div className="absolute md:static -bottom-[12rem] md:mt-8 text-[color:var(--primary-text-color)]  flex gap-2 flex-col w-2/5 min-w-[22rem]">
+      <div className="relative md:static -bottom-[12rem] md:mt-8 text-[color:var(--primary-text-color)] flex gap-2 flex-col w-full md:w-2/5 min-w-[22rem] mb-8 md:mb-0">
         <div
           className="flex flex-col items-center justify-center px-8 mb-4 header"
           data-aos="fade-in"
@@ -38,7 +37,7 @@ const Education = () => {
                 >
                   <img
                     src={profile.icon}
-                    className="min-w-[30px] max-w-[30px] md:min-w-[36px] md:max-w-[36px] duration-1000 aspect-square hover:scale-125 hover:duration-300 "
+                    className="min-w-[30px] max-w-[30px] md:min-w-[36px] md:max-w-[36px] duration-1000 aspect-square hover:scale-125 hover:duration-300"
                     alt=""
                   />
                 </Link>
@@ -46,7 +45,6 @@ const Education = () => {
                   className="-translate-x-1/2 -bottom-20 left-1/2"
                   title={profile.description}
                 />
-                {/* <p className="">{profile.description}</p> */}
               </div>
             );
           })}
@@ -54,7 +52,7 @@ const Education = () => {
       </div>
 
       {/* Design Profiles */}
-      <div className="absolute md:static -bottom-[12rem] md:mt-8 text-[color:var(--primary-text-color)]  flex gap-2 flex-col w-2/5 min-w-[22rem]">
+      <div className="relative md:static -bottom-[12rem] md:mt-8 text-[color:var(--primary-text-color)] flex gap-2 flex-col w-full md:w-2/5 min-w-[22rem] mb-8 md:mb-0">
         <div
           className="flex flex-col items-center justify-center px-8 mb-4 header"
           data-aos="fade-in"
@@ -81,7 +79,7 @@ const Education = () => {
                 >
                   <img
                     src={profile.icon}
-                    className="min-w-[30px] max-w-[30px] md:min-w-[36px] md:max-w-[36px] duration-1000 aspect-square hover:scale-125 hover:duration-300 "
+                    className="min-w-[30px] max-w-[30px] md:min-w-[36px] md:max-w-[36px] duration-1000 aspect-square hover:scale-125 hover:duration-300"
                     alt=""
                   />
                 </Link>
@@ -89,7 +87,6 @@ const Education = () => {
                   className="-translate-x-1/2 -bottom-20 left-1/2"
                   title={profile.description}
                 />
-                {/* <p className="">{profile.description}</p> */}
               </div>
             );
           })}
@@ -98,17 +95,17 @@ const Education = () => {
 
       {/* Education */}
       <div
-        className="flex flex-col items-center justify-center px-8 mt-8 mb-4 header"
+        className="flex flex-col items-center justify-center px-8 mt-48 mb-4 header md:mt-0"
         data-aos="fade-in"
       >
-        <h1 className="flex gap-2 mb-2 text-3xl font-bold tracking-wide text-center text-white">
+        <h1 className="flex gap-2 mt-4 mb-2 text-3xl font-bold tracking-wide text-center text-white">
           EDUCATION <MdSchool className="text-4xl" />
         </h1>
         <div className="h-[0.30rem] w-10 bg-white rounded-full"></div>
       </div>
-      <div className="left-0 flex flex-col items-center justify-around w-full gap-8 mb-4 md:items-start md:flex-row md:absolute -bottom-52">
+      <div className="left-0 flex flex-col items-center justify-around w-full gap-8 mb-4 md:items-start md:flex-row md:absolute md:-bottom-52">
         <div data-aos="fade-right">
-          <div className="p-6 px-7 text-[color:var(--primary-text-color)] bg-[color:var(--secondary-background-color)] rounded-lg shadow-lg shadow-[color:var(--primary-shadow-color)] md:shadow-[color:var(--secondary-shadow-color)] hover:-translate-y-3 duration-1000 hover:duration-500 ">
+          <div className="p-6 px-7 text-[color:var(--primary-text-color)] bg-[color:var(--secondary-background-color)] rounded-lg shadow-lg shadow-[color:var(--primary-shadow-color)] md:shadow-[color:var(--secondary-shadow-color)] hover:-translate-y-3 duration-1000 hover:duration-500">
             <div className="flex gap-4">
               <img
                 src={COLLEGE.icon}
@@ -116,7 +113,7 @@ const Education = () => {
                 alt=""
               />
               <div className="flex flex-col">
-                <h2 className="text-[color:var(--secondary-text-color)] font-[550] text-xl  ">
+                <h2 className="text-[color:var(--secondary-text-color)] font-[550] text-xl">
                   {COLLEGE.name}
                 </h2>
                 <p className="text-[color:var(--secondary-text-color)]">
@@ -131,14 +128,14 @@ const Education = () => {
         </div>
 
         <div data-aos="fade-left">
-          <div className="p-6 text-[color:var(--secondary-text-color)] bg-[color:var(--secondary-background-color)] rounded-lg shadow-lg shadow-[color:var(--primary-shadow-color)] md:shadow-[color:var(--secondary-shadow-color)] flex  gap-4 md:mt-6 hover:-translate-y-3 duration-1000 hover:duration-500 ">
+          <div className="p-6 text-[color:var(--secondary-text-color)] bg-[color:var(--secondary-background-color)] rounded-lg shadow-lg shadow-[color:var(--primary-shadow-color)] md:shadow-[color:var(--secondary-shadow-color)] flex gap-4 md:mt-6 hover:-translate-y-3 duration-1000 hover:duration-500">
             <img
               src={SCHOOL.icon}
               className="w-20 h-20 bg-white rounded-full"
               alt=""
             />
             <div className="flex flex-col">
-              <h2 className="text-[color:var(--secondary-text-color)] font-[550] text-xl ">
+              <h2 className="text-[color:var(--secondary-text-color)] font-[550] text-xl">
                 {SCHOOL.name}
               </h2>
               <p className="text-[color:var(--secondary-text-color)]">
